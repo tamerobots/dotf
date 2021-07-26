@@ -1,0 +1,33 @@
+======== Cheatsheet (dotfiles/extras/cheatsheet.txt)  ======================
+sha256sum <file>                   get sha256 hash of file
+playbell			   play a noise
+screenfetch                        output pretty system info (if installed)
+Ctrl+Shift+N                       instantiate a new terminal window
+Ctrl+r                             search bash history (repeat press it)
+watch -n1 <command>                run cmd every 1 seconds e.g. iwconfig
+df -H                              check disk usage
+du -sh <directory>                 check size of dir. remove 's' for tree
+du -h | sort -h                    in a folder, check sorted size of contents
+!123                               execute command number 123 from history
+<command> !$                       change cmd, keep last arg: cat x, less !$
+find . -name "README*"             find files (e.g. called README) in dir
+find ./somedir -size +512M         find files over a certain size in somedir
+grep -rin 'thing' test.txt         search for text 'thing' in test.txt
+grep -rin 'README*' .              search within files in dir for README*
+tmux                               start tmux session (see 'cheatsheet tmux')
+ln -s folder/to/link nameOfLink    create a shortcut
+dwebp file.png -o file.png         decode a webp file so ubuntu can read it
+file filename.png                  check filetype if fails to open
+date                               output the date (do before long operation)
+tree                               display a tree structure of current dir
+lynx                               text-only web browser
+htop                               see memory usage etc on this computer
+bashrl                             source ~/.bashrc
+tail -f                            show tail of file, -f is streaming update
+pw                                 ping wikipedia.org 3 times (test internet)
+cf </path/to/file/file.end>        cd to the dir in the specified filepath
+xdg-open /directoryname            open dir in file manager e.g caja/nautilus
+bml                                list bookmarks and bookmarks instructions
+hs                                 history
+nmcli dev wifi list                show local WLANs
+suuy                               sudo update -y && sudo upgrade -y
