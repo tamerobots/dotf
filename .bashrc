@@ -287,7 +287,7 @@ function bmldel {
 function convertAllWebpInFolderToPng {
     # calls a toolscript on the current working dir 
     currentDir=$(pwd)
-    bash ~/dotfiles/extras/toolscripts/convertAllWebpInFolderToPng.sh "$currentDir"
+    bash ~/dotf/extras/toolscripts/convertAllWebpInFolderToPng.sh "$currentDir"
 }
 
 # Remember the last directory visited
@@ -298,12 +298,12 @@ function convertAllWebpInFolderToPng {
 # output cheatsheet if it exists
    function cheats {
 	if [ -z "$*" ]; then
-		less ~/dotfiles/extras/cheatsheets/cheatsheet.txt
+		less ~/dotf/extras/cheatsheets/cheatsheet.txt
 	else
 		if [ "$1" == "list" ]; then
-			ls ~/dotfiles/extras/cheatsheets
+			ls ~/dotf/extras/cheatsheets
 		else
-			less ~/dotfiles/extras/cheatsheets/$1.txt
+			less ~/dotf/extras/cheatsheets/$1.txt
 		fi
 	fi
    }
