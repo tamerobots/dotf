@@ -1,6 +1,6 @@
 # Dotfiles
 
-This is a repository for my Linux config files. 
+This is a repository for my Linux config files.
 This repository isn't designed for general use as they're specific to my needs/preferences.
 However, feel free to copy any bits you like.
 
