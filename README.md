@@ -26,6 +26,11 @@ There is also a set of specific cheatsheets for my favourite programs. Access th
 
 You can look in /extras/cheatsheets/ for a list of cheatsheet textfiles you can call in this way.
 
+
+### Toolscripts ###
+
+There are a few tool scripts I have written in bash for niche purposes. These are in /dotf/extras/toolscripts/
+
 ### Thanks ###
 Thanks to [github.com/davejamesmiller](https://www.github.com/davejamesmiller), [github.com/michaeljsmalley](https://www.github.com/michaeljsmalley) and others.
 
