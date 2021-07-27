@@ -10,6 +10,9 @@ git grep <regexp> $(git rev-list --all)
 eg:
 git grep 'password123' $(git rev-list --all)
 
+---------------- Normal Commands --------------------------------
+git show <hash>                       show the changes that happened on a specific commit
+
 
 --------------- Set up multiple Git Accounts on a Computer ---------------------
 
@@ -25,7 +28,7 @@ git config user.email dave@tamerobots.com
 This sets the /dotf/ repo to use these special settings in its /dotf/.git/config so that it uses those instead of whats in
 your global ~/.gitconfig file.
 
+More here: https://stackoverflow.com/questions/8801729/is-it-possible-to-have-different-git-configuration-for-different-projects
+
 4. That's it.
 
----------------- Normal Commands --------------------------------
-git show <hash>                       show the changes that happened on a specific commit
