@@ -10,5 +10,22 @@ git grep <regexp> $(git rev-list --all)
 eg:
 git grep 'password123' $(git rev-list --all)
 
+
+--------------- Set up multiple Git Accounts on a Computer ---------------------
+
+If for example you want to setup your work machine so that the default for the machine is your dave@work.com account, 
+but for the dotf/ directory you want to use your personal 'tamerobots' account, then do the following:
+1. install the dotfiles as normal
+2. rename the .gitconfig-example to .gitconfig and put your dave@work account in it (remember the 'user' line at the bottom)
+3. from within the /dotf/ directory, enter the following commands to set that directory to use a different git user:
+
+git config user.name "TameRobots"
+git config user.email dave@tamerobots.com
+
+This sets the /dotf/ repo to use these special settings in its /dotf/.git/config so that it uses those instead of whats in
+your global ~/.gitconfig file.
+
+4. That's it.
+
 ---------------- Normal Commands --------------------------------
 git show <hash>                       show the changes that happened on a specific commit
