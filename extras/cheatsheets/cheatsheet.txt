@@ -31,3 +31,4 @@ bml                                list bookmarks and bookmarks instructions
 hs                                 history
 nmcli dev wifi list                show local WLANs
 suuy                               sudo update -y && sudo upgrade -y
+convertAllWebpInFolderToPng        invoke toolscript to convert webp to png
