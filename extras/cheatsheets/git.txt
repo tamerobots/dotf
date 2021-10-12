@@ -1,7 +1,12 @@
+--------------- Setting up repo origins ------------------------
+If it's a repo that's not across work+personal, then:
 remember to set git remote as SSH remotes, not as HTTPS remotes, so it doesnt ask you for
 a username and password. Example:
 git remote add origin git@github.com:davedss/whateverrepo.git
+However if it's a personal repo (this this one) that's on your work comp too, set it up as an HTTPS
+origin so that you can push to it with your personal token.
 
+--------------- Sensitive Info ----------------------------------
 If you're worried that you may have committed some sensitive info to a git repository, 
 like an API key or a password etc, you can search the *content* of all commits to find it:
 
@@ -11,11 +16,10 @@ eg:
 git grep 'password123' $(git rev-list --all)
 
 ---------------- Normal Commands --------------------------------
-git show <hash>                       show the changes that happened on a specific commit
-
+git show <hash>                      show the changes that happened on a specific commit
+git merge <branchname>               merge into current branch (switch to recv. branch 1st!)
 
 --------------- Set up multiple Git Accounts on a Computer ---------------------
-
 If for example you want to setup your work machine so that the default for the machine is your dave@work.com account, 
 but for the dotf/ directory you want to use your personal 'tamerobots' account, then do the following:
 1. install the dotfiles as normal
@@ -32,3 +36,7 @@ More here: https://stackoverflow.com/questions/8801729/is-it-possible-to-have-di
 
 4. That's it.
 
+---------------- Merging conflicts ------------------------------
+Remember, a lot of the time, the best place to address a conflict is on github itself.
+You can pick a branch and add/remove/edit files on it, then save it to make a new commit.
+You can also do side by side comparisons and setup build triggers to external services too.
