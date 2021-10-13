@@ -18,6 +18,7 @@ git grep 'password123' $(git rev-list --all)
 ---------------- Normal Commands --------------------------------
 git show <hash>                      show the changes that happened on a specific commit
 git merge <branchname>               merge into current branch (switch to recv. branch 1st!)
+git log -p                           show the logs AND the changes made with each commit
 
 --------------- Set up multiple Git Accounts on a Computer ---------------------
 If for example you want to setup your work machine so that the default for the machine is your dave@work.com account, 
