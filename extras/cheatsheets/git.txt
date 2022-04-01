@@ -19,6 +19,11 @@ git grep 'password123' $(git rev-list --all)
 git show <hash>                      show the changes that happened on a specific commit
 git merge <branchname>               merge into current branch (switch to recv. branch 1st!)
 git log -p                           show the logs AND the changes made with each commit
+git whatchanged <hash>               show what changed in a specific commit
+git branch <branchname>              create a branch (remember to check it out to switch to it after)
+git branch -d <branchname>           delete a branch
+git push                             when you're on a branch that is new on your local, you can use this
+                                     to get the git command to setup the branch on the remote.
 
 --------------- Set up multiple Git Accounts on a Computer ---------------------
 If for example you want to setup your work machine so that the default for the machine is your dave@work.com account, 
