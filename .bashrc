@@ -17,10 +17,6 @@ HISTCONTROL=ignoreboth
 # append to the history file, don't overwrite it
 shopt -s histappend
 
-if [ -f ~/.bashrc_config ]; then
-    source ~/.bashrc_config
-fi
-
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
 HISTFILESIZE=2000
@@ -356,9 +352,10 @@ if [ "$TERM" = "dumb" -a -z "$BASH_EXECUTION_STRING" ]; then
     }
 fi
 
-# Custom settings for this machine/account
+# Custom settings for this machine/account, if they exist
 if [ -f ~/.bashrc_local ]; then
     source ~/.bashrc_local
+    echo "loaded .bashrc_local."
 fi
 
 # *After* doing the rest, show the current directory contents

@@ -12,7 +12,7 @@
 
 dir=~/dotf                    # dotfiles directory
 olddir=~/dotf_old             # old dotfiles backup directory
-files=".bashrc .profile .inputrc .gitconfig .nanorc"    # list of files/folders to symlink in homedir
+files=".bashrc .profile .inputrc .gitconfig .nanorc .bashrc_local"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -45,8 +45,9 @@ echo "🐸💡💡💡💡💡💡💡 Reminders 💡💡💡💡💡💡💡�
 echo "🕳️  Remember to rename .gitconfig-example to .gitconfig and fill it in with the right github account for this machine, if you plan"
 echo " to use github from this machine. Remember the 'github user' line at the bottom. If you"
 echo "wish to use multiple github accounts on this machine, enter 'cheats git' for instructions."
-echo "🕳️ You can also put an emoji in a ~/.machineemoji file to put a machine-specific emoji in the cmd line"
-echo "🕳️ You can also put a welcome message in a ~/.name file."
+echo "🕳️  You can also rename .bashrc_local_example to .bashrc_local and uncomment things within it to set up settings specific for the current machine."
+echo "🕳️  You can also put an emoji in a ~/.machineemoji file to put a machine-specific emoji in the cmd line."
+echo "🕳️  You can also put a welcome message in a ~/.name file."
 echo ""
 echo ""
 echo "You can now enter:"

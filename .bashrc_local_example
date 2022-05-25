@@ -1,0 +1,7 @@
+# Uncomment example lines below, or add new lines, for local settings on this machine.
+# This file can be renamed to .bashrc_local and it will automatically be sourced on login.
+
+# export NVM_DIR="$HOME/.nvm";
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion 
+# echo "loaded nvm DIR"
