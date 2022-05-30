@@ -1,0 +1,1 @@
+Remember, you can use 'shellcheck' to test bash scripts. You can install this from the command line 'sudo apt install shellcheck' or you can just use www.shellcheck.net, which is probably better.
