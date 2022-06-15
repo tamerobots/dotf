@@ -138,6 +138,9 @@ if [ "$TERM" != "dumb" -a -z "$BASH_EXECUTION_STRING" ]; then
     alias cp='cp -i'
     alias mv='mv -i'
     alias rm='rm -i'
+    
+    # send to trash instead of hard deleting
+    alias rms='gio trash'
 
     # because i'm lazy
     alias hs='history'
