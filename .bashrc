@@ -113,6 +113,8 @@ if [ "$TERM" != "dumb" -a -z "$BASH_EXECUTION_STRING" ]; then
             TitlebarCode=
         fi
 
+        #TODO set a random colour for the username and prompt so that you can tell the difference easily between machine when sshing between them
+
         # Set the prompt
         PS1="${TitlebarCode}\n"                 # Titlebar (see above)
         PS1="${PS1}${MessageCode}"              # Message (see above)
