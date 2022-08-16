@@ -24,6 +24,7 @@ git branch <branchname>              create a branch (remember to check it out t
 git branch -d <branchname>           delete a branch
 git push                             when you're on a branch that is new on your local, you can use this
                                      to get the git command to setup the branch on the remote.
+git switch -c <new-branch>           Move existing, uncommitted work to a new branch
 
 --------------- Set up multiple Git Accounts on a Computer ---------------------
 If for example you want to setup your work machine so that the default for the machine is your dave@work.com account, 
