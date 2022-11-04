@@ -375,7 +375,11 @@ if [ "$TERM" != "dumb" -a -z "$BASH_EXECUTION_STRING" ]; then
 fi
 
 
+if [ -f "/google/devshell/bashrc.google" ]; then
+  source "/google/devshell/bashrc.google"
+fi
 
 # Git Cygwin loads this file *and* .bash_profile so set a flag to tell
 # .bash_profile not to load .bashrc again
 BASHRC_DONE=1
+
