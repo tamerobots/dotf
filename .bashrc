@@ -92,7 +92,7 @@ if [ "$TERM" != "dumb" -a -z "$BASH_EXECUTION_STRING" ]; then
 
     function getmachineemoji
      {
-         # inject an emoji into the prompt so you can easily discern between machines and you are 
+         # inject an emoji into the prompt so you can easily discern between machines and you are
          # reminded of which machine you're using. Can have multiple emojis, or whatever you want.
          machineemoji=$(cat ~/.machineemoji)
      }
@@ -374,7 +374,7 @@ if [ "$TERM" != "dumb" -a -z "$BASH_EXECUTION_STRING" ]; then
     ls -hFA
 fi
 
-
+# cloud shell seems to insert this.
 if [ -f "/google/devshell/bashrc.google" ]; then
   source "/google/devshell/bashrc.google"
 fi
